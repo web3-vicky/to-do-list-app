@@ -1,10 +1,10 @@
-const { Component, useReducer } = React;
-const { render } = ReactDOM;
+const {} = React;
+const {} = ReactDOM;
 
 function App() {
     return(<div>
-
+        <h1>Hello world</h1>
     </div>)
 }
 
-ReactDom.render(<App />, document.getElementById("root"));
+ReactDOM.render(<App />, document.getElementById("root"))
